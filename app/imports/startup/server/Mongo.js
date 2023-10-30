@@ -8,9 +8,9 @@ const addContact = (contact) => {
   Contacts.collection.insert(contact);
 };
 if (Contacts.collection.find().count() === 0) {
-  if (Meteor.settings.defaultContact) {
+  if (Meteor.settings.defaultContacts) {
     console.log('Creating default contacts.');
-    Meteor.settings.defaultContact.forEach(contact => addContact(contact));
+    Meteor.settings.defaultContacts.forEach(contact => addContact(contact));
   }
 }
 // Initialize the database with a default data document.
