@@ -15,7 +15,7 @@ const Footer = () => (
         {' '}
         <br />
         <a href="http://ics-software-engineering.github.io/meteor-application-template-react">
-          Template Home
+          Home
           Page
         </a>
       </Col>
