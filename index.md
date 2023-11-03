@@ -228,13 +228,6 @@ body {
   --bs-light-rgb: 236, 236, 236;
 }
 
-/* Define custom styles */
-.gray-background {
-  background-color: var(--bs-gray-200);
-  color: var(--bs-dark);
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
 ```
 
 ### Routing
